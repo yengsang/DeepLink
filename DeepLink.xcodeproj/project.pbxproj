@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD83981D17AA3F600054EF19 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD83981C17AA3F600054EF19 /* UIKit.framework */; };
+		FD83981F17AA3F600054EF19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD83981E17AA3F600054EF19 /* Foundation.framework */; };
+		FD83982117AA3F600054EF19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD83982017AA3F600054EF19 /* CoreGraphics.framework */; };
+		FD83982717AA3F600054EF19 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD83982517AA3F600054EF19 /* InfoPlist.strings */; };
+		FD83982917AA3F600054EF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83982817AA3F600054EF19 /* main.m */; };
+		FD83982D17AA3F600054EF19 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83982C17AA3F600054EF19 /* DLAppDelegate.m */; };
+		FD83982F17AA3F600054EF19 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83982E17AA3F600054EF19 /* Default.png */; };
+		FD83983117AA3F600054EF19 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83983017AA3F600054EF19 /* Default@2x.png */; };
+		FD83983317AA3F600054EF19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83983217AA3F600054EF19 /* Default-568h@2x.png */; };
+		FD83983617AA3F600054EF19 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD83983417AA3F600054EF19 /* MainStoryboard.storyboard */; };
+		FD83983917AA3F600054EF19 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83983817AA3F600054EF19 /* DLViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD83981917AA3F600054EF19 /* DeepLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD83981C17AA3F600054EF19 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FD83981E17AA3F600054EF19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FD83982017AA3F600054EF19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FD83982417AA3F600054EF19 /* DeepLink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeepLink-Info.plist"; sourceTree = "<group>"; };
+		FD83982617AA3F600054EF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD83982817AA3F600054EF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD83982A17AA3F600054EF19 /* DeepLink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeepLink-Prefix.pch"; sourceTree = "<group>"; };
+		FD83982B17AA3F600054EF19 /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		FD83982C17AA3F600054EF19 /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
+		FD83982E17AA3F600054EF19 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FD83983017AA3F600054EF19 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FD83983217AA3F600054EF19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FD83983517AA3F600054EF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FD83983717AA3F600054EF19 /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		FD83983817AA3F600054EF19 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD83981617AA3F600054EF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD83981D17AA3F600054EF19 /* UIKit.framework in Frameworks */,
+				FD83981F17AA3F600054EF19 /* Foundation.framework in Frameworks */,
+				FD83982117AA3F600054EF19 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD83981017AA3F600054EF19 = {
+			isa = PBXGroup;
+			children = (
+				FD83982217AA3F600054EF19 /* DeepLink */,
+				FD83981B17AA3F600054EF19 /* Frameworks */,
+				FD83981A17AA3F600054EF19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD83981A17AA3F600054EF19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD83981917AA3F600054EF19 /* DeepLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD83981B17AA3F600054EF19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD83981C17AA3F600054EF19 /* UIKit.framework */,
+				FD83981E17AA3F600054EF19 /* Foundation.framework */,
+				FD83982017AA3F600054EF19 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD83982217AA3F600054EF19 /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				FD83982B17AA3F600054EF19 /* DLAppDelegate.h */,
+				FD83982C17AA3F600054EF19 /* DLAppDelegate.m */,
+				FD83983417AA3F600054EF19 /* MainStoryboard.storyboard */,
+				FD83983717AA3F600054EF19 /* DLViewController.h */,
+				FD83983817AA3F600054EF19 /* DLViewController.m */,
+				FD83982317AA3F600054EF19 /* Supporting Files */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
+		FD83982317AA3F600054EF19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD83982417AA3F600054EF19 /* DeepLink-Info.plist */,
+				FD83982517AA3F600054EF19 /* InfoPlist.strings */,
+				FD83982817AA3F600054EF19 /* main.m */,
+				FD83982A17AA3F600054EF19 /* DeepLink-Prefix.pch */,
+				FD83982E17AA3F600054EF19 /* Default.png */,
+				FD83983017AA3F600054EF19 /* Default@2x.png */,
+				FD83983217AA3F600054EF19 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD83981817AA3F600054EF19 /* DeepLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD83983C17AA3F600054EF19 /* Build configuration list for PBXNativeTarget "DeepLink" */;
+			buildPhases = (
+				FD83981517AA3F600054EF19 /* Sources */,
+				FD83981617AA3F600054EF19 /* Frameworks */,
+				FD83981717AA3F600054EF19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLink;
+			productName = DeepLink;
+			productReference = FD83981917AA3F600054EF19 /* DeepLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD83981117AA3F600054EF19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Yeng Sang";
+			};
+			buildConfigurationList = FD83981417AA3F600054EF19 /* Build configuration list for PBXProject "DeepLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FD83981017AA3F600054EF19;
+			productRefGroup = FD83981A17AA3F600054EF19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD83981817AA3F600054EF19 /* DeepLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD83981717AA3F600054EF19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD83982717AA3F600054EF19 /* InfoPlist.strings in Resources */,
+				FD83982F17AA3F600054EF19 /* Default.png in Resources */,
+				FD83983117AA3F600054EF19 /* Default@2x.png in Resources */,
+				FD83983317AA3F600054EF19 /* Default-568h@2x.png in Resources */,
+				FD83983617AA3F600054EF19 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD83981517AA3F600054EF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD83982917AA3F600054EF19 /* main.m in Sources */,
+				FD83982D17AA3F600054EF19 /* DLAppDelegate.m in Sources */,
+				FD83983917AA3F600054EF19 /* DLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD83982517AA3F600054EF19 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD83982617AA3F600054EF19 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FD83983417AA3F600054EF19 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD83983517AA3F600054EF19 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD83983A17AA3F600054EF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD83983B17AA3F600054EF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD83983D17AA3F600054EF19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepLink/DeepLink-Prefix.pch";
+				INFOPLIST_FILE = "DeepLink/DeepLink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FD83983E17AA3F600054EF19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeepLink/DeepLink-Prefix.pch";
+				INFOPLIST_FILE = "DeepLink/DeepLink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD83981417AA3F600054EF19 /* Build configuration list for PBXProject "DeepLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD83983A17AA3F600054EF19 /* Debug */,
+				FD83983B17AA3F600054EF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD83983C17AA3F600054EF19 /* Build configuration list for PBXNativeTarget "DeepLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD83983D17AA3F600054EF19 /* Debug */,
+				FD83983E17AA3F600054EF19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD83981117AA3F600054EF19 /* Project object */;
+}
