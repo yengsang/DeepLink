@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DLDataController;
+@class DLCompanyProfile;
 
 @interface DLViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *companyName;
+@property (weak, nonatomic) IBOutlet UIImageView *companyLogo;
+@property (weak, nonatomic) IBOutlet UIWebView *companyWebsite;
+@property (strong, nonatomic) DLDataController *dataController;
+@property (strong, nonatomic) DLCompanyProfile *companyProfile;
 
 @end

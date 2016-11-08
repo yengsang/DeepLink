@@ -1,18 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="DLViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0e-vJ-XUV">
+                                <rect key="frame" x="139" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rHj-Oe-tfE">
+                                <rect key="frame" x="20" y="49" width="280" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ixE-Oi-GtI"/>
+                                </constraints>
+                            </imageView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="we7-6u-zrA">
+                                <rect key="frame" x="20" y="185" width="280" height="358"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="358" id="zae-cc-q5g"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="we7-6u-zrA" firstAttribute="top" secondItem="rHj-Oe-tfE" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="02g-C5-RDC"/>
+                            <constraint firstAttribute="trailing" secondItem="we7-6u-zrA" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="8ge-wT-Azg"/>
+                            <constraint firstItem="rHj-Oe-tfE" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Exw-pd-IUL"/>
+                            <constraint firstItem="L0e-vJ-XUV" firstAttribute="centerX" secondItem="rHj-Oe-tfE" secondAttribute="centerX" type="default" id="OJ1-qk-T38"/>
+                            <constraint firstItem="L0e-vJ-XUV" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="YIY-1l-bHL"/>
+                            <constraint firstItem="we7-6u-zrA" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="YV0-av-aqs"/>
+                            <constraint firstAttribute="trailing" secondItem="rHj-Oe-tfE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="gqr-bb-dLV"/>
+                            <constraint firstItem="rHj-Oe-tfE" firstAttribute="top" secondItem="L0e-vJ-XUV" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ohw-Zm-H42"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="companyLogo" destination="rHj-Oe-tfE" id="d2K-zl-Yav"/>
+                        <outlet property="companyName" destination="L0e-vJ-XUV" id="Es8-VT-ZxL"/>
+                        <outlet property="webView" destination="we7-6u-zrA" id="rD9-TL-wNT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>

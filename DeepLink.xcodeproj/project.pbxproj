@@ -18,6 +18,12 @@
 		FD83983317AA3F600054EF19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD83983217AA3F600054EF19 /* Default-568h@2x.png */; };
 		FD83983617AA3F600054EF19 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD83983417AA3F600054EF19 /* MainStoryboard.storyboard */; };
 		FD83983917AA3F600054EF19 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83983817AA3F600054EF19 /* DLViewController.m */; };
+		FD83984217AA40FF0054EF19 /* astro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD83983F17AA40FF0054EF19 /* astro.jpeg */; };
+		FD83984317AA40FF0054EF19 /* greenpacket.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD83984017AA40FF0054EF19 /* greenpacket.jpeg */; };
+		FD83984417AA40FF0054EF19 /* maxis.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD83984117AA40FF0054EF19 /* maxis.jpeg */; };
+		FD83984717AA5FB90054EF19 /* DLCompanyProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83984617AA5FB90054EF19 /* DLCompanyProfile.m */; };
+		FD83984A17AA60610054EF19 /* DLDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD83984917AA60610054EF19 /* DLDataController.m */; };
+		FD83984F17AB6F090054EF19 /* google.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FD83984E17AB6F090054EF19 /* google.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,14 @@
 		FD83983517AA3F600054EF19 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FD83983717AA3F600054EF19 /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
 		FD83983817AA3F600054EF19 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
+		FD83983F17AA40FF0054EF19 /* astro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = astro.jpeg; sourceTree = "<group>"; };
+		FD83984017AA40FF0054EF19 /* greenpacket.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenpacket.jpeg; sourceTree = "<group>"; };
+		FD83984117AA40FF0054EF19 /* maxis.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxis.jpeg; sourceTree = "<group>"; };
+		FD83984517AA5FB90054EF19 /* DLCompanyProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLCompanyProfile.h; path = ../DLCompanyProfile.h; sourceTree = "<group>"; };
+		FD83984617AA5FB90054EF19 /* DLCompanyProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLCompanyProfile.m; path = ../DLCompanyProfile.m; sourceTree = "<group>"; };
+		FD83984817AA60610054EF19 /* DLDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLDataController.h; sourceTree = "<group>"; };
+		FD83984917AA60610054EF19 /* DLDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLDataController.m; sourceTree = "<group>"; };
+		FD83984E17AB6F090054EF19 /* google.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = google.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,10 @@
 		FD83982217AA3F600054EF19 /* DeepLink */ = {
 			isa = PBXGroup;
 			children = (
+				FD83984517AA5FB90054EF19 /* DLCompanyProfile.h */,
+				FD83984817AA60610054EF19 /* DLDataController.h */,
+				FD83984917AA60610054EF19 /* DLDataController.m */,
+				FD83984617AA5FB90054EF19 /* DLCompanyProfile.m */,
 				FD83982B17AA3F600054EF19 /* DLAppDelegate.h */,
 				FD83982C17AA3F600054EF19 /* DLAppDelegate.m */,
 				FD83983417AA3F600054EF19 /* MainStoryboard.storyboard */,
@@ -96,6 +114,10 @@
 		FD83982317AA3F600054EF19 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD83983F17AA40FF0054EF19 /* astro.jpeg */,
+				FD83984017AA40FF0054EF19 /* greenpacket.jpeg */,
+				FD83984E17AB6F090054EF19 /* google.jpeg */,
+				FD83984117AA40FF0054EF19 /* maxis.jpeg */,
 				FD83982417AA3F600054EF19 /* DeepLink-Info.plist */,
 				FD83982517AA3F600054EF19 /* InfoPlist.strings */,
 				FD83982817AA3F600054EF19 /* main.m */,
@@ -164,6 +186,10 @@
 				FD83983117AA3F600054EF19 /* Default@2x.png in Resources */,
 				FD83983317AA3F600054EF19 /* Default-568h@2x.png in Resources */,
 				FD83983617AA3F600054EF19 /* MainStoryboard.storyboard in Resources */,
+				FD83984217AA40FF0054EF19 /* astro.jpeg in Resources */,
+				FD83984317AA40FF0054EF19 /* greenpacket.jpeg in Resources */,
+				FD83984417AA40FF0054EF19 /* maxis.jpeg in Resources */,
+				FD83984F17AB6F090054EF19 /* google.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +203,8 @@
 				FD83982917AA3F600054EF19 /* main.m in Sources */,
 				FD83982D17AA3F600054EF19 /* DLAppDelegate.m in Sources */,
 				FD83983917AA3F600054EF19 /* DLViewController.m in Sources */,
+				FD83984717AA5FB90054EF19 /* DLCompanyProfile.m in Sources */,
+				FD83984A17AA60610054EF19 /* DLDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

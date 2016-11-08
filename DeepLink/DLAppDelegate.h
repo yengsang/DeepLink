@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DLAppDelegate : UIResponder <UIApplicationDelegate>
+@class DLDataController;
 
+@interface DLAppDelegate : UIResponder <UIApplicationDelegate>
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) DLDataController *dataController;
 
 @end
